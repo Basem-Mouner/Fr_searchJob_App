@@ -1,6 +1,6 @@
 
 // const baseURL = 'http://localhost:3000'
-const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com'
+const baseURL = 'https://jobsearchbasemmouner.eu-4.evennode.com'
 
 
 $("#login").click(() => {
