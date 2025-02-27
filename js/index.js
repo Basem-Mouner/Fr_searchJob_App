@@ -1,6 +1,6 @@
 
 // const baseURL = 'http://localhost:3000'
-const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com/'
+const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com'
 
 
 $("#login").click(() => {
@@ -49,7 +49,7 @@ $("#login").click(() => {
 async function socialLogin() {
 
   try {
-    window.location.href = "http://localhost:3000/auth/google";
+    window.location.href =` ${baseURL}/auth/google`;
   } catch (error) {
     console.error("Error during social login:", error);
   }

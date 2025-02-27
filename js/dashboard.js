@@ -1,5 +1,5 @@
 // const baseURL = 'http://localhost:3000'
-const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com/'
+const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com'
 const urlParams = new URLSearchParams(window.location.search);
 const token = urlParams.get("idToken");
 console.log({token});
