@@ -15,12 +15,13 @@ let globalProfile = {};
 let sederId=''
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // const baseURL = "http://localhost:3000";
-const baseURL = 'https://jobsearchbasemmouner.eu-4.evennode.com'
+const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com'
 const token = `user ${localStorage.getItem("token")}`;
 const headers = {
   "Content-Type": "application/json; charset=UTF-8",
   "accept-language": "en-US",
   authorization: token,
+    "Accept": "application/json"
 };
 let roomID = "";
 

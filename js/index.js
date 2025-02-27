@@ -1,6 +1,6 @@
 
 // const baseURL = 'http://localhost:3000'
-const baseURL = 'https://jobsearchbasemmouner.eu-4.evennode.com'
+const baseURL = 'http://jobsearchbasemmouner.eu-4.evennode.com'
 
 
 $("#login").click(() => {
@@ -23,7 +23,7 @@ $("#login").click(() => {
         data: loginData,
         headers: { 'Content-Type': 'application/json; charset=UTF-8',
             'accept-language': "en-US",
-        }
+        },
     }).then(function (response) {
         console.log({ response });
         const { successMessage, data } = response.data
