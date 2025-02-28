@@ -23,7 +23,7 @@ const headers = {
   authorization: token,
     "Accept": "application/json"
 };
-let roomID = "";
+
 
 const clintIo = io(baseURL, {
   auth: { authorization: token },
